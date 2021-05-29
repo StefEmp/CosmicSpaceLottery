@@ -1,0 +1,38 @@
+body{
+    background-image: url("../images/backgrounds/mainBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.logoutbutton {
+    position:absolute;
+   right: 950px;
+}
+
+#logoutbutton {
+    background-image: url("../images/buttons/logoutButton.png");
+    background-size: 500px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    border: white solid 5px;
+    border-radius: 25px;
+    padding-top: 60px;
+    padding-right: 650px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+#logoutbutton:hover {
+    background-image: url("../images/buttons/logoutButtonHover.png");
+    background-size: 500px;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    border: black solid 5px;
+    border-radius: 25px;
+    padding-top: 60px;
+    padding-right: 650px;
+}
