@@ -1,4 +1,4 @@
-# Cosmic Space Lottery - Stephane Emptage
+# Cosmic Space Lottery 
 
 ## Introduction
  
