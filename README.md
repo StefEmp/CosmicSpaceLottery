@@ -8,6 +8,8 @@ Welcome to Cosmic Space Lottery, a lottery game set in the far reaches of space.
 
 I have created documentation on how I created the project and what I may do if I had more time. This can be found **[here]()**.
 
+This game has been created using JavaScript, HTML, CSS, Express, Handlebars and BootStrap.
+
 ## Set Up
 
 Simply download the repo and make sure you have node installed. 
