@@ -6,13 +6,13 @@ var playerArray = [];
 //this object sets the maximum number of balls in the pool and specifies the number of ball choices for lottery 
 //note - you can change these values to increase or decrease the odds - especially useful for debugging!
 var lotto = { 
-    max : 10,
+    max : 59,
     num : 6,
 }
 //this object sets the maximum number of balls in the pool and specifies the number of ball choices for lucky dip
 //note - you can change these values to increase or decrease the odds - especially useful for debugging!
 var lucky = { 
-    max : 10,
+    max : 59,
     num : 6,
 }
 // this function manages the process of a couple of things:
