@@ -20,6 +20,12 @@ app.get('/', (req, res) => {
 app.get('/spaceLottery', (req, res) => {
     res.render('spaceLottery');
 });
+app.get('/makeYourChoice', (req, res) => {
+    res.render('makeYourChoice');
+});
+app.get('/luckyDip', (req, res) => {
+    res.render('luckyDip');
+});
 
 // port where app is served
 app.listen(3000, () => {

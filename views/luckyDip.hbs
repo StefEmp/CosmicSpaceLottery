@@ -1,18 +1,30 @@
 
 <br>
      <div class="logo"> <img class="logo" src="/images/logos/live5.png"></div>
-<div class="cosmicSpaceLogo"> <img class="cosmicSpaceLogo" src="/images/logos/cosmicSpace.png"></div>
+<div class="luckyDipLogo"> <img class="luckyDipLogo" src="/images/logos/luckyDip.png"></div>
 <br>
+ <div id="table1">
+<table>
+<tr>
 
- 
- {{!-- <form onsubmit="return addChoice()">
- <p>Please insert your choice</p>
- <input type="number" id="numberChoice">
- <input type="submit" value="Submit">
-</form> --}}
+<div class= "startDip">
+      <input type="button" class="button" id="startDip" onclick="luckyDip()"></button>
+    </div>
+    <br>
+<tr>
+<th width="10%" id="lucky0" class="numberResults">&nbsp</th>
+<th width="10%"id="lucky1" class="numberResults">&nbsp</th>
+<th width="10%"id="lucky2" class="numberResults">&nbsp</th>
+<th width="10%"id="lucky3" class="numberResults">&nbsp</th>
+<th width="10%"id="lucky4" class="numberResults">&nbsp</th>
+<th width="10%"id="lucky5" class="numberResults">&nbsp</th>
 
-<input type="number" id="userinput" min="1" max= "59" required="yes"/> 
-<input type ="button" onclick="addTo()" value="Add a number" /> 
+</tr>
+
+
+
+
+</div>
 
 <table id="table2">
 <tr>
@@ -30,15 +42,14 @@
 
 </tr>
 <table>
+
 <div class= "yourResults">
-      <input type="button" class="button" id="yourResults" onclick="resultsPlayerChoice(addNumber, lottoArray)"></button>
+      <input type="button" class="button" id="yourResults" onclick="resultsLuckyDip(luckyDipArray, lottoArray)"></button>
     </div>
 <br>
 <p id="result"></p>
 <p id="points"></p>
-
-
-<a href="/spaceLottery">
+<a href="/luckyDip">
 <div class= "resetGame">
       <button class="button" id="resetGame"></button>
     </div>
@@ -50,4 +61,3 @@
               </div>
               </a>
 
-  

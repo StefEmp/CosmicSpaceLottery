@@ -2,11 +2,9 @@
 body {
     background-image: url("../images/backgrounds/mainBackground.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 200%;
   }
-  .logo {
-      margin-left: 50px;
-  }
+  
   .introducingTitle {
     text-align: center;
   }

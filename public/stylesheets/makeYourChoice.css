@@ -1,0 +1,94 @@
+#yourChoice {
+    background-image: url("../images/buttons/pickYourOwn.png");
+    background-size: 600px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: white solid 5px;
+    border-radius: 50px;
+    
+    padding: 300px;
+    text-align: center;
+    margin-top: 150px;
+}
+#yourChoice:hover {
+    background-image: url("../images/buttons/pickYourOwnHover.png");
+    background-size: 600px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: black solid 5px;
+    border-radius: 50px;
+    
+    padding: 300px;
+}
+
+#luckyDipChoice {
+    background-image: url("../images/buttons/luckyDip.png");
+    background-size: 500px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: white solid 5px;
+    border-radius: 50px;
+    
+    padding: 300px;
+    text-align: center;
+    margin-top: 150px;
+}
+#luckyDipChoice:hover {
+    background-image: url("../images/buttons/luckyDipHover.png");
+    background-size: 500px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: black solid 5px;
+    border-radius: 50px;
+    
+    padding: 300px;
+    
+}
+#luckyDipChoice {
+    background-image: url("../images/buttons/luckyDip.png");
+    background-size: 500px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: white solid 5px;
+    border-radius: 50px;
+    
+    padding: 300px;
+    text-align: center;
+    margin-top: 150px;
+}
+#luckyDipChoice:hover {
+    background-image: url("../images/buttons/luckyDipHover.png");
+    background-size: 500px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: black solid 5px;
+    border-radius: 50px;
+    
+    padding: 300px;
+    
+}
+
+#pickAChoice {
+    text-align: center;
+    
+}
+
+#enterTheCosmos {
+    text-align: center;
+}
+
+#reload {
+    text-align: center;
+}

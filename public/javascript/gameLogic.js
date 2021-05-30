@@ -3,7 +3,12 @@
 var luckyDipArray = [];
 var lottoArray = [];
 var matches = [];
+var matches2 = [];
 var points = 0;
+var playerArray = [];
+
+var addNumber = [];
+
 var lotto = { 
     max : 10,
     num : 6,
@@ -67,7 +72,7 @@ function showLuckyDip(){
     console.log(lottoArray);
 }
 
-function resultsYas(luckyDipArray, lottoArray){
+function resultsLuckyDip(luckyDipArray, lottoArray){
     var matches = luckyDipArray.filter(function(item){
         return lottoArray.indexOf(item) > -1
       })
@@ -93,4 +98,54 @@ function resultsYas(luckyDipArray, lottoArray){
     
       document.getElementById("points").innerHTML = "you have got: " + points + " points!";
 }
+
+
+   function resultsPlayerChoice(addNumber, lottoArray){
+    var matches2 = addNumber.filter(function(item){
+        return lottoArray.indexOf(item) > -1
+      })
+      console.log(matches2)
+      console.log("Total matches: ", matches2.length)
+      document.getElementById("result").innerHTML = "you have got: " + matches2.length + " matches!";
+      
+      switch(true){
+          case matches2.length == 3:
+            points = points + 50;
+            break;
+            case matches2.length == 4:
+                points = points + 100;
+                break;
+                case matches2.length == 5:
+                    points = points + 200;
+                    break;
+                    case matches2.length == 6:
+                        points = points + 500;
+                        break;
+                        
+      }
     
+      document.getElementById("points").innerHTML = "you have got: " + points + " points!";
+}
+
+function addTo() { 
+   
+
+    playerChoice = parseInt(document.getElementById("userinput").value);
+    
+    if (addNumber.length < 6){
+        addNumber.push(playerChoice);  
+    console.log(addNumber);
+    return false;
+    }
+    else {
+        console.log(addNumber);
+       alert("you have now chosen your 6 numbers!");
+       return false;
+    }
+
+ } 
+
+ function showArray() {
+     console.log(addNumber);
+     console.log(lottoArray);
+ }

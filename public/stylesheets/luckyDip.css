@@ -1,0 +1,178 @@
+.luckyDipLogo {
+    text-align: center;
+    background-size: 50%;
+
+}
+.goodLuck {
+    text-align: center;
+}
+#table1 {
+    width:100%;
+    height:100%;
+    
+}
+table {
+    margin:0 auto;
+}
+.startDip {
+    text-align: center;
+    margin-top: 50px;
+}
+#startDip {
+    background-image: url("../images/buttons/startLuckyDip.png");
+    background-size: 500px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: white solid 5px;
+    border-radius: 50px;
+    padding-top: 30px;
+    padding-right: 500px;
+    text-align: center;
+    
+   
+}
+
+#startDip:hover {
+    background-image: url("../images/buttons/startLuckyDipHover.png");
+    background-size: 500px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: black solid 5px;
+    border-radius: 50px;
+    padding-top: 30px;
+    padding-right: 500px;
+    text-align: center;
+    
+}
+.startLottery {
+    text-align: center;
+    margin-top: 50px;
+}
+#startLottery {
+    background-image: url("../images/buttons/startLottery.png");
+    background-size: 500px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: white solid 5px;
+    border-radius: 50px;
+    padding-top: 30px;
+    padding-right: 500px;
+    text-align: center;
+    
+   
+}
+
+#startLottery:hover {
+    background-image: url("../images/buttons/startLotteryHover.png");
+    background-size: 500px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: black solid 5px;
+    border-radius: 50px;
+    padding-top: 30px;
+    padding-right: 500px;
+    text-align: center;
+    
+}
+
+.yourResults {
+    text-align: center;
+    margin-top: 50px;
+}
+#yourResults {
+    background-image: url("../images/buttons/results.png");
+    background-size: 300px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: white solid 5px;
+    border-radius: 50px;
+    padding-top: 50px;
+    padding-right: 300px;
+    text-align: center;
+    
+   
+}
+
+#yourResults:hover {
+    background-image: url("../images/buttons/resultsHover.png");
+    background-size: 300px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: white solid 5px;
+    border-radius: 50px;
+    padding-top: 50px;
+    padding-right: 300px;
+    text-align: center;
+    
+}
+.resetGame {
+    text-align: center;
+    margin-top: 150px;
+}
+#resetGame {
+    background-image: url("../images/buttons/resetGame.png");
+    background-size: 300px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: white solid 5px;
+    border-radius: 50px;
+    padding-top: 50px;
+    padding-right: 300px;
+    text-align: center;
+    
+   
+}
+
+#resetGame:hover {
+    background-image: url("../images/buttons/resetGameHover.png");
+    background-size: 300px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: white solid 5px;
+    border-radius: 50px;
+    padding-top: 50px;
+    padding-right: 300px;
+    text-align: center;
+    
+}
+.numberResults {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    border-radius: 90px;
+}
+
+#result {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+#points {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: black;
+}
