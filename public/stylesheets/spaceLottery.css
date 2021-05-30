@@ -36,10 +36,61 @@ body{
     padding-top: 60px;
     padding-right: 650px;
 }
+.pickANumber {
+    text-align: center;
+    margin-top: 50px;
+}
+#pickANumber {
+    background-image: url("../images/buttons/pickANumber.png");
+    background-size: 500px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: white solid 5px;
+    border-radius: 50px;
+    padding-top: 30px;
+    padding-right: 500px;
+    text-align: center;
+    
+   
+}
 
+#pickANumber:hover {
+    background-image: url("../images/buttons/pickANumberHover.png");
+    background-size: 500px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+   color: white;
+   border: black solid 5px;
+    border-radius: 50px;
+    padding-top: 30px;
+    padding-right: 500px;
+    text-align: center;
+}
+
+.userinput {
+    text-align: center;
+    margin-top: 10px;
+    
+}
+#userinput {
+    text-align: center;
+    background-color: black;
+    border-width: 5px;
+    border: solid white;
+    color:white;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
 .cosmicSpaceLogo {
     text-align: center;
     background-size: 50%;
 
 }
 
+.chooseNumbers{
+    text-align: center;
+}

@@ -176,3 +176,11 @@ table {
     font-weight: bolder;
     background-color: black;
 }
+#prize {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: black;
+}
