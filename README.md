@@ -5,6 +5,7 @@
 Welcome to Cosmic Space Lottery, a lottery game set in the far reaches of space.
 
 59 numbers are picked at random by the lottery, and you can pick 6 balls, to meteor into space and win out of this world prizes. You can pick your own numbers, or if you want you can leave it up to the space gods and try your hand at a lucky dip.
+
 You can download an overview video **[here](https://github.com/StefEmp/CosmicSpaceLottery/blob/main/Cosmic%20Space%20Overview%20Video.mkv)** if you want to see the application in action!
 
 ![CosmicSpaceLottery](/cosmicSpaceLotteryImage.png)
